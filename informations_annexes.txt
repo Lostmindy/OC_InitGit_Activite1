@@ -1,0 +1,20 @@
+==================================
+== Initiation à Git
+=========== Annexes
+==================================
+
+1 - Utilisation de l'invite de commandes
+
+	cat 
+	// pour lire un fichier
+
+	touch 
+	// pour créer un fichier
+
+2 - Utilisation de vim
+
+En faisant ECHAP, on entre en mode interactif
+	:w permet d'écrire (enregistrer) le fichier
+	:q permet de quitter vim
+
+En tapant i, on entre en mode écriture

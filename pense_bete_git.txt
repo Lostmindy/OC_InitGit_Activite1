@@ -1,0 +1,34 @@
+==================================
+== Initiation à Git
+======== Pense-bête
+==================================
+
+Initialiser un repertoire git
+	git init
+	
+Vérifier l'état du repository
+	git status 
+	// renvoie une erreur si le repository n'a pas été initié
+	
+Ajouter les nouveaux fichiers ou modifications à l'index
+	git add nom_du_fichier
+	
+Faire un commit
+	git commit -m "détail du commit"
+	// L'option -m permet d'ajouter un message détaillant les modifications faites
+	// On peut également ajouter -a quand on veut commiter des fichiers qui ont déjà été indexés
+	// Ce qui se résume par -am
+	
+Consulter l'historique des modifications faites
+	git log
+	// Chaque commit a un code identifiant unique, le sha
+	
+Se positionner sur un commit passé
+	git checkout [sha]
+	// Avec [sha] l'identifiant du commit auquel on veut revenir
+	// Utile pour revenir en arrière quand le code est cassé
+	
+
+	
+	
+	
