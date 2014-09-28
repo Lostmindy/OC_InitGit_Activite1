@@ -28,6 +28,19 @@ Se positionner sur un commit passé
 	// Avec [sha] l'identifiant du commit auquel on veut revenir
 	// Utile pour revenir en arrière quand le code est cassé
 	
+Revenir au commit présent
+	git checkout master
+	
+Cloner un repository distant sur github
+	git clone url_repository
+	
+Envoyer les fichiers modifiés sur le remote
+	git push origin master
+	// origin est le nom du remote par défaut (c'est une convention)
+	// master est le nom de la branche courante (le code actuel)
+	
+Récupérer les derniers commits du remote
+	git pull origin master
 
 	
 	
