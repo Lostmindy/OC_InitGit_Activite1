@@ -3,7 +3,7 @@
 ======== Pense-bête
 ==================================
 
-Initialiser un repertoire git
+Initialiser un répertoire git
 	git init
 	
 Vérifier l'état du repository
@@ -12,6 +12,7 @@ Vérifier l'état du repository
 	
 Ajouter les nouveaux fichiers ou modifications à l'index
 	git add nom_du_fichier
+	// on peut aussi lister tous les fichiers à la suite au lieu de faire un git add pour chacun
 	
 Faire un commit
 	git commit -m "détail du commit"
@@ -21,7 +22,7 @@ Faire un commit
 	
 Consulter l'historique des modifications faites
 	git log
-	// Chaque commit a un code identifiant unique, le sha
+	// Chaque commit a un code identifiant unique (crypté en sha)
 	
 Se positionner sur un commit passé
 	git checkout [sha]
