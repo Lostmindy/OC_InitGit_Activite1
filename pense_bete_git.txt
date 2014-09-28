@@ -39,9 +39,14 @@ Envoyer les fichiers modifiés sur le remote
 	git push origin master
 	// origin est le nom du remote par défaut (c'est une convention)
 	// master est le nom de la branche courante (le code actuel)
+	// TODO se renseigner sur l'option -u (suggérée par Github) si ce n'est pas expliqué dans les prochains cours
 	
 Récupérer les derniers commits du remote
 	git pull origin master
+	
+Définir un remote
+	git remote add origin url_repository
+	
 
 	
 	
